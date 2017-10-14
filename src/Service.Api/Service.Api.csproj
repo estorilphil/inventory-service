@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Service.ContractModels\Service.ContractModels.csproj" />
+    <ProjectReference Include="..\Service.EntityModels\Service.EntityModels.csproj" />
+    <ProjectReference Include="..\Service.Providers\Service.Providers.csproj" />
+  </ItemGroup>
+
+</Project>

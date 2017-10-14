@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.1.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0-preview-20170628-02" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.1.18" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.1.18" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Service.Api\Service.Api.csproj" />
+    <ProjectReference Include="..\Service.ContractModels\Service.ContractModels.csproj" />
+    <ProjectReference Include="..\Service.EntityModels\Service.EntityModels.csproj" />
+    <ProjectReference Include="..\Service.Types\Service.Types.csproj" />
+  </ItemGroup>
+
+</Project>
