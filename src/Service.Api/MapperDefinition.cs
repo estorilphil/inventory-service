@@ -27,6 +27,8 @@ namespace Service.Api
                     .ForMember(t => t.EngineNotation, dest => dest.MapFrom<string>(x => x.EngineNotation))
                     .ForMember(t => t.Description, dest => dest.MapFrom<string>(x => x.Description));
 
+                config.CreateMap<CM.Hero, EM.Hero>();
+
                 //internal -> external
                 config.CreateMap<EM.Vehicle, CM.Vehicle>()
                     .ForMember(t => t.Year, dest => dest.MapFrom<int>(x => x.Year))
@@ -39,6 +41,8 @@ namespace Service.Api
                     .ForMember(t => t.ChassisNotation, dest => dest.MapFrom<string>(x => x.ChassisNotation))
                     .ForMember(t => t.EngineNotation, dest => dest.MapFrom<string>(x => x.EngineNotation))
                     .ForMember(t => t.Description, dest => dest.MapFrom<string>(x => x.Description));
+
+                config.CreateMap<EM.Hero, CM.Hero>();
             });
         }
     }

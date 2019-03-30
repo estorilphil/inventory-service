@@ -680,7 +680,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pchen\\.nuget\\packages\\": {},
+    "C:\\Users\\phil\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -692,14 +692,14 @@
       "projectUniqueName": "C:\\projects\\service-cloud\\inventory-service\\src\\Service.ContractModels\\Service.ContractModels.csproj",
       "projectName": "Service.ContractModels",
       "projectPath": "C:\\projects\\service-cloud\\inventory-service\\src\\Service.ContractModels\\Service.ContractModels.csproj",
-      "packagesPath": "C:\\Users\\pchen\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\phil\\.nuget\\packages\\",
       "outputPath": "C:\\projects\\service-cloud\\inventory-service\\src\\Service.ContractModels\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\pchen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\phil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -730,7 +730,7 @@
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.0",
+            "version": "2.0",
             "autoReferenced": true
           }
         },

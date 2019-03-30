@@ -23,7 +23,16 @@ namespace Service.Api
             #region dependency injection
             services.AddSingleton<IInventoryRepository, InventoryRepository>();
             services.AddSingleton<IInventoryProvider, InventoryProvider>();
+
+            services.AddSingleton<IHeroProvider, HeroProvider>();
             #endregion
+
+            services.AddCors(o => o.AddPolicy("AllowCorsPolicy", builder =>
+            {
+                builder.AllowAnyOrigin()
+                       .AllowAnyHeader()
+                       .AllowAnyMethod();
+            }));            
 
             #region setup mapping
             _mapperConfiguration = MapperDefinition.GetMapperDefinition();

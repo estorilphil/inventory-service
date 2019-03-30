@@ -40,6 +40,7 @@ namespace Service.Host
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors("AllowCorsPolicy");
             app.UseMvc();
         }
     }
